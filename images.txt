@@ -6,7 +6,7 @@
 # 注意：sync.sh 使用 skopeo --all，自动同步所有架构（amd64+arm64），无需指定 --platform
 
 # --- 首次测试镜像（小体积，快速验证链路） ---
-alpine:3.19
+#alpine:3.19
 
 # --- Spring Boot 基础镜像 ---
 #eclipse-temurin:17-jdk
@@ -104,4 +104,4 @@ alpine:3.19
 #--platform=linux/arm64 docker.io/victoriametrics/operator:v0.62.0
 #--platform=linux/arm64  docker.io/victoriametrics/victoria-metrics:v1.123.0
 #--platform linux/arm64 victoriametrics/config-reloader:v0.68.1
-alpine:3.19
+labring/kubernetes:v1.30.5
