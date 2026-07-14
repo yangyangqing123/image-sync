@@ -6,20 +6,19 @@
 # 注意：sync.sh 使用 skopeo --all，自动同步所有架构（amd64+arm64），无需指定 --platform
 
 # --- 首次测试镜像（小体积，快速验证链路） ---
-#alpine:3.18
+alpine:3.19
 
 # --- Spring Boot 基础镜像 ---
-eclipse-temurin:17-jdk
-eclipse-temurin:17-jre
-maven:3.9-eclipse-temurin-17
+#eclipse-temurin:17-jdk
+#eclipse-temurin:17-jre
+#maven:3.9-eclipse-temurin-17
 
 # --- 基础设施镜像 ---
-nginx:1.25-alpine
-redis:7-alpine
-mysql:8.0
+#nginx:1.25-alpine
+#redis:7-alpine
+#mysql:8.0
 
-#test
-
+#test update 20260714  20:20
 
 #--platform=linux/arm64 yandex/clickhouse-server:22.1.7.3
 #--platform=linux/arm64 busybox:latest
