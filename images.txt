@@ -104,4 +104,5 @@
 #--platform=linux/arm64 docker.io/victoriametrics/operator:v0.62.0
 #--platform=linux/arm64  docker.io/victoriametrics/victoria-metrics:v1.123.0
 #--platform linux/arm64 victoriametrics/config-reloader:v0.68.1
-kubernetes:v1.30.5
+#kubernetes:v1.30.5
+--platform linux/amd64 neo4j:2026.02.2
